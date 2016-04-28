@@ -1,0 +1,223 @@
+This is automake.info, produced by makeinfo version 4.13 from
+automake.texi.
+
+This manual is for GNU Automake (version 1.11.1, 13 May 2012), a
+program that creates GNU standards-compliant Makefiles from template
+files.
+
+   Copyright (C) 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003,
+2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
+
+     Permission is granted to copy, distribute and/or modify this
+     document under the terms of the GNU Free Documentation License,
+     Version 1.3 or any later version published by the Free Software
+     Foundation; with no Invariant Sections, with no Front-Cover texts,
+     and with no Back-Cover Texts.  A copy of the license is included
+     in the section entitled "GNU Free Documentation License."
+
+
+INFO-DIR-SECTION Software development
+START-INFO-DIR-ENTRY
+* Automake-1.11: (automake1.11).        Making GNU standards-compliant Makefiles.
+END-INFO-DIR-ENTRY
+
+INFO-DIR-SECTION Individual utilities
+START-INFO-DIR-ENTRY
+* aclocal-1.11: (automake1.11)Invoking aclocal.        Generating aclocal.m4.
+* automake-1.11: (automake1.11)Invoking Automake.      Generating Makefile.in.
+END-INFO-DIR-ENTRY
+
+
+Indirect:
+automake.info-1: 1166
+automake.info-2: 299776
+
+Tag Table:
+(Indirect)
+Node: Top1166
+Node: Introduction13696
+Ref: Introduction-Footnote-115175
+Ref: Introduction-Footnote-215324
+Node: Autotools Introduction15581
+Node: GNU Build System16932
+Node: Use Cases19599
+Node: Basic Installation21704
+Node: Standard Targets25171
+Node: Standard Directory Variables26664
+Node: Standard Configuration Variables28461
+Node: config.site29778
+Node: VPATH Builds31160
+Node: Two-Part Install35046
+Node: Cross-Compilation37450
+Node: Renaming40342
+Node: DESTDIR41460
+Node: Preparing Distributions43572
+Node: Dependency Tracking45525
+Node: Nested Packages47391
+Node: Why Autotools48882
+Node: Hello World50504
+Node: Creating amhello51071
+Node: amhello Explained56186
+Node: Generalities63754
+Node: General Operation64448
+Node: Strictness67295
+Node: Uniform69028
+Node: Length Limitations72885
+Node: Canonicalization75168
+Node: User Variables76205
+Node: Auxiliary Programs77652
+Node: Examples81411
+Node: Complete82275
+Node: true84262
+Node: Invoking Automake87030
+Node: configure93994
+Node: Requirements94853
+Node: Optional99828
+Node: Invoking aclocal108590
+Node: aclocal Options111658
+Node: Macro Search Path114391
+Node: Extending aclocal118756
+Node: Local Macros122160
+Node: Serials126659
+Node: Future of aclocal131784
+Node: Macros134054
+Node: Public Macros134582
+Node: Obsolete Macros139757
+Node: Private Macros142340
+Node: Directories143743
+Node: Subdirectories144682
+Node: Conditional Subdirectories146986
+Node: SUBDIRS vs DIST_SUBDIRS148582
+Node: Subdirectories with AM_CONDITIONAL150128
+Node: Subdirectories with AC_SUBST151242
+Node: Unconfigured Subdirectories152041
+Node: Alternative155340
+Ref: Alternative-Footnote-1157481
+Node: Subpackages157606
+Node: Programs160786
+Node: A Program162322
+Node: Program Sources163045
+Node: Linking164871
+Node: Conditional Sources168132
+Node: Conditional Programs170947
+Node: A Library172763
+Node: A Shared Library175202
+Node: Libtool Concept176204
+Node: Libtool Libraries178260
+Node: Conditional Libtool Libraries179934
+Node: Conditional Libtool Sources182298
+Node: Libtool Convenience Libraries183637
+Node: Libtool Modules186961
+Node: Libtool Flags188230
+Node: LTLIBOBJS190011
+Node: Libtool Issues190602
+Node: Error required file ltmain.sh not found190944
+Node: Objects created both with libtool and without192108
+Node: Program and Library Variables193944
+Ref: Program and Library Variables-Footnote-1204659
+Node: Default _SOURCES204734
+Node: LIBOBJS207089
+Node: Program Variables212003
+Node: Yacc and Lex214739
+Node: C++ Support219767
+Node: Objective C Support220609
+Node: Unified Parallel C Support221549
+Node: Assembly Support222505
+Node: Fortran 77 Support223585
+Ref: Fortran 77 Support-Footnote-1225218
+Node: Preprocessing Fortran 77225421
+Node: Compiling Fortran 77 Files225998
+Node: Mixing Fortran 77 With C and C++226571
+Ref: Mixing Fortran 77 With C and C++-Footnote-1228894
+Node: How the Linker is Chosen229197
+Node: Fortran 9x Support230645
+Node: Compiling Fortran 9x Files231644
+Node: Java Support232214
+Node: Vala Support233410
+Node: Support for Other Languages234845
+Node: ANSI235489
+Node: Dependencies238294
+Node: EXEEXT240053
+Node: Other Objects242518
+Node: Scripts243110
+Node: Headers245832
+Node: Data247557
+Node: Sources248216
+Node: Built Sources Example250986
+Node: Other GNU Tools257896
+Node: Emacs Lisp258387
+Node: gettext260218
+Node: Libtool260870
+Node: Java261125
+Node: Python263013
+Node: Documentation267731
+Node: Texinfo268035
+Node: Man Pages274156
+Node: Install277170
+Node: Basics of Installation277870
+Node: The Two Parts of Install279360
+Node: Extending Installation280780
+Node: Staged Installs281528
+Node: Install Rules for the User282897
+Node: Clean283425
+Node: Dist285503
+Node: Basics of Distribution285995
+Node: Fine-grained Distribution Control288402
+Node: The dist Hook289309
+Node: Checking the Distribution291128
+Node: The Types of Distributions294876
+Node: Tests296130
+Node: Simple Tests296647
+Node: Simple Tests using parallel-tests299776
+Node: DejaGnu Tests308169
+Node: Install Tests309875
+Node: Rebuilding310177
+Node: Options313794
+Ref: tar-formats323150
+Node: Miscellaneous326380
+Node: Tags326770
+Node: Suffixes329069
+Node: Multilibs330659
+Node: Include331293
+Node: Conditionals332184
+Node: Usage of Conditionals333006
+Node: Limits of Conditionals336247
+Node: Gnits337428
+Node: Cygnus339731
+Node: Not Enough341557
+Node: Extending341995
+Node: Third-Party Makefiles346726
+Node: Distributing353313
+Node: API Versioning353950
+Node: Upgrading356593
+Node: FAQ358542
+Node: CVS359580
+Node: maintainer-mode366304
+Node: Wildcards370157
+Node: Limitations on File Names373264
+Node: distcleancheck375833
+Node: Flag Variables Ordering380624
+Node: Renamed Objects388306
+Node: Per-Object Flags389851
+Node: Multiple Outputs392748
+Node: Hard-Coded Install Paths402288
+Node: Debugging Make Rules407295
+Ref: Debugging Make Rules-Footnote-1408893
+Node: History409057
+Node: Timeline409622
+Node: Dependency Tracking Evolution440927
+Node: First Take on Dependencies441887
+Node: Dependencies As Side Effects444548
+Node: Dependencies for the User446624
+Node: Techniques for Dependencies451633
+Node: Recommendations for Tool Writers453288
+Node: Future Directions for Dependencies454039
+Node: Releases454505
+Node: Copying This Manual460118
+Node: GNU Free Documentation License460352
+Node: Indices485487
+Node: Macro Index485776
+Node: Variable Index491716
+Node: General Index518707
+
+End Tag Table

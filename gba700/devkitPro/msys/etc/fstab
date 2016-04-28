@@ -1,0 +1,17 @@
+# This file describes how to map the Unix-style filenames that
+# the devkitPro tools use into Windows filenames, so it's effectively
+# saying where devkitPro is installed on your Windows machine.
+#
+# Things to bear in mind:
+#
+# - The path must start with a drive letter, and can't have any
+#   spaces in it.
+#   "C:/gba700" and "F:/DevTools/gba700" are OK.
+#   "C:/Program Files/gba700" and "//MyServer/gba700" aren't.
+#
+# - Use / rather than \ when writing the path.
+#
+# - There needs to be a tab character (not spaces) between the
+#   two paths.
+
+C:/gba700	/dev
